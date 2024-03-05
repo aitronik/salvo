@@ -1,0 +1,4 @@
+include: 
+  - project: '$CICD_SCRIPTS_GROUP/ci-cd-scripts'
+    ref: main
+    file: '.default-ci.yml'

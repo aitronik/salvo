@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>log_manager</name>
-  <version>0.1.0</version>
+  <name>salvo</name>
+  <version>1.0.0</version>
   <description>todo</description>
-  <maintainer email="jacob@openrobotics.org">Jacob Perron</maintainer>
-  <license>Apache License 2.0</license>
-  <author>Mikael Arguedas</author>
-  <author>Morgan Quigley</author>
-
+  <maintainer email="carmelo.difranco@aitronik.com">Carmelo Di Franco</maintainer>
+  <license>MIT</license>
+  <author>Carmelo Di Franco</author>
+  
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_depend>rclcpp</build_depend>
@@ -21,7 +20,7 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
-
+ 
   <export>
     <build_type>ament_cmake</build_type>
   </export>
